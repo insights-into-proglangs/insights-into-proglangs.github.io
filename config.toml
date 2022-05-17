@@ -1,0 +1,33 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Insights Into Proglangs'
+theme = "terminal"
+
+[params]
+  readingTime = true
+  fullWidthTheme = false
+  centerTheme = true
+  themeColor = "green"
+
+[languages]
+  [languages.en]
+    title = "Insights into proglangs"
+    keywords = "programming"
+    copyright = "© 2022 - Aarav Navani"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "Insights into proglangs"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
